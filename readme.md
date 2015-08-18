@@ -4,7 +4,7 @@ Use to automatically set nav states to active/inactive when using iron router
 ## How
 Add package with ```meteor add nwz:activenav```
 
-Then declare which element contains your navigation in Meteor settings ```{"public": {"activeNav": "#nav a"}}```
+Then declare which element contains your navigation in Meteor settings ```{"public": {"activeNav": "#nav a"}}``` (where #nav is your nav parent)
 
 Meteor.settings can be declared when launching Meteor eg ```meteor --settings settings.json``` or with an env variable.
 
