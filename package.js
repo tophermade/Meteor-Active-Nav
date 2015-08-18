@@ -2,7 +2,7 @@ Package.describe({
     name: 'nwz:activenav',
     version: '0.0.1',
     summary: 'Set active state on navigation element',
-    git: '',
+    git: 'https://github.com/tophermade/Meteor-Active-Nav',
     documentation: 'readme.md'
 });
 
